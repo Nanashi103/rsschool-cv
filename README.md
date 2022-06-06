@@ -1,2 +1,3 @@
 # rsschool-cv
-# https://github.com/Nanashi103/rsschool-cv/blob/gh-pages/cv.md
+# https://Nanashi103.github.io/rsschool-cv/
+
