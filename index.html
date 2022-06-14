@@ -1,1 +1,137 @@
-# File
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>cv</title>
+</head>
+
+<body>
+    <div class="wraper">
+        <header>
+            <nav class="novigation">
+                <ul class="novigation__menu">
+                    <li class="menu__list"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="menu__list"><a href="#summary" class="nav-link">Summary</a></li>
+                    <li class="menu__list"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="menu__list"><a href="#courses" class="nav-link">Courses</a></li>
+                    <li class="menu__list"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="menu__list"><a href="#english" class="nav-link">English</a></li>
+                    <li class="menu__list"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="menu__list"><a href="#code" class="nav-link">Code</a></li>
+                </ul>
+            </nav>
+            <div class="head">
+                <img src="./assets/img/Radkevich.jpg" alt="Photo" class="head__photo">
+                <div class="head__name">
+                    <h1 class="head__title">Radkevich Vadim</h1>
+                    <p class="head__description">junior front-end developer</p>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="main__border"></div>
+            <div class="main__calc">
+                <div class="main__contacts">
+                    <h2 class="contacts__title">contacts</h2>
+                    <ul class="contacts__list">
+                        <li class="list__discription"><img src="./assets/svg/location.svg" alt="location"
+                                class="location__icon icon">Minsk, BLR</li>
+                        <li class="list__discription"><img src="./assets/svg/mail.svg" alt="mail"
+                                class="mail__icon icon">Email:<a href="#">
+                                Nanashi1331@mail.ru</a></li>
+                        <li class="list__discription"><img src="./assets/svg/github.svg" alt="github"
+                                class="github__icon icon">Github: <a href="#">Nanashi103</a></li>
+                        <li class="list__discription"><img src="./assets/svg/telegram.svg" alt="telegram"
+                                class="telegram__icon icon">Telegram: <a href="#">@Nanashi131</a>
+                        </li>
+                        <li class="list__discription"><img src="./assets/svg/discord.svg" alt="discord"
+                                class="discord__icon icon">Discord:<a href="#">
+                                Nanashi(Вадим)#7913</a></li>
+                        <li class="list__discription"><img src="./assets/svg/vk.svg" alt="" class="vk__icon icon">VK:<a
+                                href="#">
+                                id135907116</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="main__contacts">
+                    <h2 class="contacts__title">summary</h2>
+                    <p class="contancts__summary">i like programming. it is fascinating. i have a main job, programming
+                        is a
+                        hobby for me. I have
+                        completed several training project and now I would like to take part in the creation of a real
+                        html
+                        & CSS project. i would like to work under the guidance of an experienced developer to gain
+                        practical
+                        experience </p>
+                </div>
+            </div>
+            <div class="main__calc">
+                <div class="main__contacts">
+                    <h2 class="contacts__title">skills</h2>
+                    <ul class="contacts__liss">
+                        <li class="list__discription">web-development: <span class="list__discription-color">HTML5, CSS,
+                                JavaScript</span></li>
+                        <li class="list__discription">Version-control: <span class="list__discription-color">GIT,
+                                Github</span></li>
+                        <li class="list__discription">Graphics: <span class="list__discription-color">Figma</span></li>
+                    </ul>
+                </div>
+
+                <div class="main__contacts">
+                    <h2 class="contacts__title">code</h2>
+                    <pre class="contacts__code">const sequenceSum = (begin, end, step) => {
+    if (begin > end) return 0;
+    let sum = 0;
+
+    for (let num = begin; num = end; num += step) {
+        sum += num;
+        }
+
+        return sum;
+    }</pre>
+                </div>
+            </div>
+            <div class="main__calc">
+                <div class="main__contacts">
+                    <h2 class="contacts__title">courses</h2>
+                    <ul class="contacts__liss">
+                        <li class="list__discription">rolling-scopes-school: stage0</li>
+                        <li class="list__discription">IT Shattle: front-end developer</li>
+                    </ul>
+                </div>
+
+                <div class="main__contacts">
+                    <h2 class="contacts__title">project</h2>
+                    <ul class="contacts__list">
+                        <li class="list__discription"><a
+                                href="https://nanashi103.github.io/diplom_vadim/build/">Locus</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="main__calc">
+                <div class="main__contacts main__contacts-border">
+                    <h2 class="contacts__title">education</h2>
+                    <p>Minsk State Vocational Lyceum No. 9 of Automotive Industry</p>
+                </div>
+                <div class="main__contacts main__contacts-border">
+                    <h2 class="contacts__title">english</h2>
+                    <p>A1 - Beginner English</p>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="footer__description">
+                <p>@2022 Nanashi103</p>
+
+            </div>
+            <a href="https://rs.school/js/"><img src="./assets/svg/rs_school_js.svg" alt="logo" class="logo"></a>
+        </footer>
+    </div>
+</body>
+
+</html>
